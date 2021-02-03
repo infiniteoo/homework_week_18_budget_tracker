@@ -41,7 +41,7 @@ app.use(function (err, req, res, next) {
   res.render('error')
 })
 
-mongoose.connect('mongodb://localhost/budget', {
+mongoose.connect('mongodb://localhost:27017/budget', {
   useNewUrlParser: true,
   useFindAndModify: false,
   useUnifiedTopology: true
