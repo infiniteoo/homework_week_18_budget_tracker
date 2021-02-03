@@ -5,6 +5,7 @@ const cookieParser = require('cookie-parser')
 const logger = require('morgan')
 const compression = require('compression')
 const mongoose = require('mongoose')
+require('dotenv').config()
 
 const apiRouter = require('./routes/api_routes')
 const htmlRouter = require('./routes/html_routes')
@@ -41,7 +42,7 @@ app.use(function (err, req, res, next) {
   res.render('error')
 })
 
-mongoose.connect('mongodb://localhost:27017/budget', {
+mongoose.connect(process.env.CONNECTION_STRING, {
   useNewUrlParser: true,
   useFindAndModify: false,
   useUnifiedTopology: true
