@@ -7,12 +7,14 @@
     "lint": "./node_modules/.bin/eslint"
   },
   "dependencies": {
+    "compression": "^1.7.4",
     "cookie-parser": "~1.4.4",
     "debug": "~2.6.9",
     "dotenv": "^8.2.0",
     "express": "~4.16.1",
     "hbs": "~4.0.4",
     "http-errors": "~1.6.3",
+    "lite-server": "^2.6.1",
     "mongodb": "^3.6.4",
     "mongoose": "^5.11.15",
     "morgan": "~1.9.1",
