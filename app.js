@@ -45,6 +45,7 @@ app.use(function (err, req, res, next) {
 mongoose.connect(process.env.CONNECTION_STRING, {
   useNewUrlParser: true,
   useFindAndModify: false,
+  useCreateIndex: true,
   useUnifiedTopology: true
 })
 
