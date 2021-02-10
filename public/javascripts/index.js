@@ -136,9 +136,10 @@ function sendTransaction (isAdding) {
     .catch(err => {
       if (err) throw err
       // fetch failed, so save in indexed db
-      // this non existant function was supplied to us.
-      // i'm assuming we're supposed to make a 'saverecord' function
-      // saveRecord(transaction)
+
+      console.log('transaction @ line 141:', transaction)
+      // eslint-disable-next-line no-undef
+      saveRecord(transaction)
 
       // clear form
       nameEl.value = ''
