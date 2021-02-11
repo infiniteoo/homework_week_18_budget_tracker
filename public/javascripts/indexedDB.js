@@ -29,7 +29,7 @@ request.onerror = function (event) {
   console.log(event.target.errorCode)
 }
 
-// This function will be executed if we attempt to submit a new transaction and there's no internet connection
+// eslint-disable-next-line no-unused-vars
 function saveRecord (record) {
   // open a new transaction with the database with read and write permissions
   const transaction = db.transaction(['new_transaction'], 'readwrite')
