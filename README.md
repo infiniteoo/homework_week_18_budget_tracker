@@ -23,7 +23,7 @@
     <a href="https://github.com/infiniteoo/homework_week_18_budget_tracker"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/infiniteoo/homework_week_18_budget_tracker">View Demo</a>
+    <a href="https://fast-inlet-48607.herokuapp.com/">View Demo</a>
     ·
     <a href="https://github.com/infiniteoo/homework_week_18_budget_tracker/issues">Report Bug</a>
     ·
@@ -64,7 +64,9 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+![budget tracker](./example/budget_tracker_pic.PNG)
+
+This budget tracking app allows the user to keep detailed records on their finances even if they are without periodic internet connectivity.  Utilizing Indexed DB, the user is able to input transactions even in the remotest of locations, and when internet connectivity is restored, the budget tracker will be automatically synced with the "cloud-based" remote database.
 
 
 ### Built With
