@@ -64,6 +64,7 @@ function populateChart () {
 
   const ctx = document.getElementById('myChart').getContext('2d')
 
+  // eslint-disable-next-line no-undef
   myChart = new Chart(ctx, {
     type: 'line',
     data: {
@@ -132,8 +133,9 @@ function sendTransaction (isAdding) {
         amountEl.value = ''
       }
     })
-    .catch(err => {
+    .catch(() => {
     // fetch failed, so save in indexed db
+      // eslint-disable-next-line no-undef
       saveRecord(transaction)
 
       // clear form
