@@ -30,6 +30,7 @@ server.listen(port, () => {
     '==> 🌎  Listening on port %s. Visit http://localhost:%s/ in your browser.',
     port, port
   )
+  console.log('value of CONNECTION_STRING:', process.env.CONNECTION_STRING)
 })
 
 server.on('error', onError)
