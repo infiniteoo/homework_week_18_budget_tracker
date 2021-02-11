@@ -133,8 +133,7 @@ function sendTransaction (isAdding) {
         amountEl.value = ''
       }
     })
-    .catch((err) => {
-      if (err) throw err
+    .catch(() => {
       // fetch failed, so save in indexed db
       // eslint-disable-next-line no-undef
       saveRecord(transaction)
