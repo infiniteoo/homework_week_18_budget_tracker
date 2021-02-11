@@ -18,7 +18,7 @@
   <h3 align="center">Budget Tracker</h3>
 
   <p align="center">
-    Budget Tracker application which allow for offline access and functionality. 
+    Budget tracking application which allow for offline access and functionality utilizing Indexed DB as our local storage.
     <br />
     <a href="https://github.com/infiniteoo/homework_week_18_budget_tracker"><strong>Explore the docs »</strong></a>
     <br />
@@ -95,7 +95,7 @@ This is an example of how to list things you need to use the software and how to
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/infiniteoo/homework_week_18_budget_tracker.git
+   git clone https://github.com/infiniteoo/homework_week_19_budget_tracker.git
    ```
 2. Install NPM packages
    ```sh
@@ -109,14 +109,14 @@ This is an example of how to list things you need to use the software and how to
 
 Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
 
-_For more examples, please refer to the [Documentation](https://example.com)_
+_For more examples, please refer to the [Documentation](https://github.com/infiniteoo/homework_week_19_budget_tracker)_
 
 
 
 <!-- ROADMAP -->
 ## Roadmap
 
-See the [open issues](https://github.com/infiniteoo/homework_week_18_budget_tracker/issues) for a list of proposed features (and known issues).
+See the [open issues](https://github.com/infiniteoo/homework_week_19_budget_tracker) for a list of proposed features (and known issues).
 
 
 
@@ -143,9 +143,9 @@ Distributed under the MIT License. See `LICENSE` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@doormant](https://twitter.com/doormant) - troydorman@gmail.com
+Troy Dorman - Twitter: [@doormant](https://twitter.com/doormant) - Email: troydorman@gmail.com
 
-Project Link: [https://github.com/infiniteoo/homework_week_18_budget_tracker](https://github.com/infiniteoo/homework_week_18_budget_tracker)
+Project Link: [https://github.com/infiniteoo/homework_week_19_budget_tracker](https://github.com/infiniteoo/homework_week_19_budget_tracker)
 
 
 
