@@ -1,4 +1,4 @@
--->
+
 [![Contributors][contributors-shield]][contributors-url]
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
@@ -114,16 +114,11 @@ This is an example of how to list things you need to use the software and how to
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+This application is a great companion for that on-the-go type person who always finds themselves without internet service.  Maybe they like to go on a lot of vacations, or they work in remote areas and are without internet service, but would still like to ensure their pocketbook remains balanced.  Utilizing the internal power of the Chrome brower's built in Indexed DB, this app allows the user seamless functionality whether or not they current have an internet connection.  
+
+If they are connected to the internet, then our standard MongoDB funtionality will occur, which works as our primary, 'in-the-cloud' database which will contain all transactions.  When internet service is not available, the backup is utilized.  When the user comes back online, any offline transactions will sync with the primary database in the cloud and update.  Once this occurs, the local IndexedDB database is wiped clean and will await the next offline transaction!
 
 _For more examples, please refer to the [Documentation](https://github.com/infiniteoo/homework_week_19_budget_tracker)_
-
-
-
-<!-- ROADMAP -->
-## Roadmap
-
-See the [open issues](https://github.com/infiniteoo/homework_week_19_budget_tracker) for a list of proposed features (and known issues).
 
 
 
