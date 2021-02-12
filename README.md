@@ -8,6 +8,7 @@
 
 
 
+
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
@@ -31,7 +32,7 @@
   </p>
 </p>
 
-
+![example gif](/example/gif_1.gif)
 
 <!-- TABLE OF CONTENTS -->
 <details open="open">
@@ -67,6 +68,10 @@
 ![budget tracker](./example/budget_tracker_pic.PNG)
 
 This budget tracking app allows the user to keep detailed records on their finances even if they are without periodic internet connectivity.  Utilizing Indexed DB, the user is able to input transactions even in the remotest of locations, and when internet connectivity is restored, the budget tracker will be automatically synced with the "cloud-based" remote database.
+
+Check out the offline funcationlity working in this animated gif:
+
+![example gif](/example/gif_2.gif)
 
 
 ### Built With
